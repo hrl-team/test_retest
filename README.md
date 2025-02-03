@@ -1,21 +1,21 @@
 # test_retest
 
 ## Overview
-Code to generate Figures of Vrizzi, Najar et al. (preprint) available at https://osf.io/preprints/psyarxiv/3u4gp_v1 . This project provides a set of scripts and tools for statistical analysis and visualization of reliability measures in a dataset from a reinforcement learning (RL) task. It includes functions for plotting figures, calculating reliability metrics, and summarizing statistical properties.
+Code to generate Figures of Vrizzi, Najar et al. (preprint) available at https://osf.io/preprints/psyarxiv/3u4gp_v1 . This project provides a set of scripts and tools for statistical analysis and visualization of reliability measures (correlation and ICC) in a dataset from a reinforcement learning (RL) task. It includes functions for plotting figures, calculating reliability metrics, and summarizing statistical properties.
+
+## RL parameter fitting methods
+- ML=maximum likelihood
+- MAP=maximum a posteriori
+- HB=hierarchical bayesian
+- HBpool=hierarchical bayesian by pooling together test-retest data
 
 ## Features
 - Generation of various plots related to reliability measures
 - Statistical summaries and analyses
-- Support for multiple RL parameter estimation methods (ML=maximum likelihood, MAP=maximum a posteriori, HB=hierarchical bayesian, HBpool=hierarchical bayesian by pooling together test-retest data)
+- Support for multiple RL parameter estimation methods (ML, MAP, HB, HBpool)
 - SLURM array job support for parallel execution
 
 ## Requirements
-### Dependencies
-The project requires Python 3.6 and the following libraries:
-- `os`
-- `sys`
-- `argparse`
-- Custom modules: `plot_figures`
 
 Ensure all dependencies are installed before running the script.
 
@@ -37,6 +37,9 @@ Ensure all dependencies are installed before running the script.
    If `requirements.txt` is missing, manually install necessary packages.
 
 ## Usage
+
+Comment in or out the figures you want to plot. Launching the programme will automatically generate all the data files needed for the desired figures. If already there, they will be fetched.
+
 ### Running the Main Script
 Execute the script using:
 ```sh
@@ -47,7 +50,7 @@ python main.py --task_id <TASK_ID>
   
 Example:
 ```sh
-python main.py --task_id 2
+python main.py --task_id 1
 ```
 
 ### Available Functions
