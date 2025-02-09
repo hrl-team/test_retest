@@ -26,8 +26,8 @@ Ensure all dependencies are installed before running the script.
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/hrl-team/test_retest.git
+   cd test_retest
    ```
 2. Set up a virtual environment (optional but recommended):
    ```sh
