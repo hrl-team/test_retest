@@ -1,7 +1,7 @@
 # test_retest
 
 ## Overview
-Code to generate Figures of Vrizzi, Najar et al. (preprint) available at https://osf.io/preprints/psyarxiv/3u4gp_v1 . This project provides a set of scripts and tools for statistical analysis and visualization of reliability measures (correlation and ICC) in a dataset from a reinforcement learning (RL) task. It includes functions for plotting figures, calculating reliability metrics, and summarizing statistical properties.
+Code to generate Figures of Vrizzi, Najar et al. (2025) https://www.nature.com/articles/s44220-025-00427-1 (pre-print available at https://osf.io/preprints/psyarxiv/3u4gp_v1). This project provides a set of scripts and tools for statistical analysis and visualization of reliability measures (correlation and ICC) in a dataset from a reinforcement learning (RL) task. It includes functions for plotting figures, calculating reliability metrics, and summarizing statistical properties.
 
 ## Reliability measures
 - correlation
