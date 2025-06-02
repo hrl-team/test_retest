@@ -1,0 +1,6 @@
+File 'Card Game INFR1.csv'
+Modified lines 49 and 82 at DI column, to correct for wrong split/shift in data reporting for Android version in column DG-DH
+
+File 'Card Game INFL1.csv'
+Modified lines 42, 86 and 99 at DI column, to correct for wrong split/shift in data reporting for Android version in column DG-DH
+
